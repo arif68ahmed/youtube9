@@ -1,0 +1,195 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  .iframe1{
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .iframe1{
+    width: 100% !important;
+    height: 400px !important;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+iframe{
+  width: 100%;
+  height: auto !important;
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  iframe{
+    width: 100% !important;
+    height: 300px !important;
+  }
+  .margin{
+    margin: 10px 0px !important;
+  }
+  .display{
+    display: none !important;
+  }
+  .position01{
+    position: absolute;
+    top: 10px;
+  
+  }
+  .position1{
+    left: 10%;
+  }
+  .position2{
+    left: 30%;
+  }
+  .position3{
+    left: 60%;
+  }
+  .position4{
+    left: 80%;
+  }
+  .btn1 i{
+    padding: 10px 16px;
+    border: transparent;
+  
+  }
+  .position{
+    position: absolute;
+    top: 5%;
+  }
+  .profile-text{
+    font-size: 22px;
+    padding: 3px 10px;
+    border-radius: 2px;
+    border: none;
+  }
+  .d-none{
+    display: block !important;
+  }
+  ol, ul {
+    padding-left: 0rem !important;
+}
+.watching{
+  margin-bottom: 15px;
+}
+.dot i{
+  padding-right: 5px;
+  font-size: 12px;
+}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 20px) and (max-width: 480px) {
+  
+  /* CSS */
+  iframe{
+    width: 100% !important;
+    height: 240px !important;
+  }
+  .margin{
+    margin: 10px 0px !important;
+  }
+  .display{
+    display: none !important;
+  }
+  .position{
+    position: absolute;
+    top: 5%;
+    z-index: -1;
+  }
+  .position01{
+    position: absolute;
+    top: 10px;
+  
+  }
+  .position1{
+    left: 10%;
+  }
+  .position2{
+    left: 30%;
+  }
+  .position3{
+    left: 60%;
+  }
+  .position4{
+    left: 80%;
+  }
+  .btn1 i{
+    padding: 10px 16px;
+    border: transparent;
+  
+  }
+  .profile-text{
+    font-size: 16px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    border: none;
+  }
+  .d-none{
+    display: block !important;
+  }
+  ol, ul {
+    padding-left: 0rem !important;
+}
+  .f-icon{
+    margin: 0 !important;
+    padding: 0;
+  }
+  .f-icon li{
+    margin: 0;
+    padding: 0;
+    padding: 0px 10px;
+  }
+  .watching{
+    margin-bottom: 15px;
+  }
+  .dot i{
+    padding-right: 5px;
+    font-size: 12px;
+  }
+}

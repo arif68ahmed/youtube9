@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none !important;
+}
+nav{
+	padding: 10px 0px;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+.yticon{
+	height: 10px;
+	width: 10px;
+}
+.btn2{
+	border: none;
+	padding: 8px 20px;
+	border-radius: 50px;
+	background-color: #ededef;
+	transition: .3s;
+	margin: 20px 0px;
+
+}
+.btn2:hover{
+	background: #000;
+	color: #fff;
+	transition: .3s;
+}
+.pbox{
+	padding: 10px 50px;
+	border: 1px solid rgba(109, 95, 95, 0.329);
+	font-size: 16px;
+	font-weight: 600;
+}
+h6{
+	font-weight: 700;
+}
+.width{
+	width: 100%;
+}
+.f-left li i{
+	font-size: 30px;
+}
+.f-right{
+	float: right;
+
+}
+.f-right li {
+	padding: 0px 20px;
+}
+.f-right li i{
+	font-size: 30px;
+}
+.fa-bars{
+	color: #000 !important;
+}
+.fa-youtube-play{
+	color: red;
+}
+.youtube-text{
+	font-size: 24px;
+	font-weight: 600;
+}
+.profile-text{
+	font-size: 22px;
+	color: #fff;
+	padding: 5px 15px;
+	background:#110603;
+	border-radius: 4px;
+	text-align: center;
+}
+.f-icon{
+
+}
+.f-icon li{
+	padding-left: 30px;
+}
+.f-icon li i {
+	font-size: 22px;
+}
+p {
+	margin-bottom: 0px !important;
+}
+.form-control:focus{
+	outline: none !important;
+}
+.btn1{
+	background-color: #f8f8f8 !important;
+	border: none;
+}
+.btn1:focus{
+	outline: none;
+}
+.btn1 i{
+	padding: 10px 24px;
+	border: 1px solid rgb(53, 50, 50);
+	color:rgb(53, 50, 50);
+
+}
+.flex{
+	display: flex;
+}
+.d-flex:focus{
+	outline: none;
+}
+.click{
+	border: none;
+}
+.yticon{
+	height: 15px;
+	width: 15px;
+}
+.d-none{
+	display: none;
+}
+.main{
+	position: relative;
+}
+.live{
+	position: absolute;
+	bottom: 40px;
+	left: 50px;
+}
+.live span{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+}
+.dot i{
+	color: red;
+	padding-right: 10px;
+	font-size: 12px;
+}
+.live-text{
+	color: #fff;
+}
